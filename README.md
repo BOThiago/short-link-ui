@@ -194,3 +194,23 @@ A aplicação utiliza um design system baseado em Tailwind CSS com:
 ```bash
 NEXT_PUBLIC_API_URL=https://your-api-domain.railway.app/api
 ```
+
+## 🚀 Deploy
+
+### Vercel (Frontend)
+
+1. Conecte sua conta GitHub ao Vercel
+2. Importe este repositório
+3. Configure as variáveis de ambiente:
+   - `NEXT_PUBLIC_API_URL`: URL da sua API (ex: https://your-api.railway.app/api)
+4. Deploy automático a cada push na branch main
+
+### Configuração Rápida
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/BOThiago/short-link-ui)
+
+### Variáveis de Ambiente
+
+```bash
+NEXT_PUBLIC_API_URL=https://your-api-domain.railway.app/api
+```
