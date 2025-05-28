@@ -107,10 +107,10 @@ npm start
 
 A aplicação consome os seguintes endpoints:
 
-- `GET /api/url` - Lista todas as URLs
-- `POST /api/url` - Cria uma nova URL encurtada
-- `GET /api/reports/stats` - Estatísticas e dados para gráficos
-- `GET /api/reports/peak-access` - Dia de pico de acessos
+- `GET /url` - Lista todas as URLs
+- `POST /url` - Cria uma nova URL encurtada
+- `GET /reports/stats` - Estatísticas e dados para gráficos
+- `GET /reports/peak-access` - Dia de pico de acessos
 
 ## 🧪 Estrutura de Dados
 
