@@ -7,8 +7,8 @@ const nextConfig: NextConfig = {
 
     return [
       {
-        source: '/api/:path*',
-        destination: `${backendUrl}/api/:path*`,
+        source: '/:path*',
+        destination: `${backendUrl}/:path*`,
       },
       {
         source: '/:shortCode([a-zA-Z0-9]{6,10})',

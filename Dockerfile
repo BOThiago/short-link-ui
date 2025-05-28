@@ -11,8 +11,8 @@ FROM node:20-alpine AS builder
 WORKDIR /app
 
 # Build arguments
-ARG NEXT_PUBLIC_API_URL=/api
-ARG BACKEND_URL=http://api:3000
+ARG NEXT_PUBLIC_API_URL=http://localhost:3000
+ARG BACKEND_URL=http://localhost:3000
 
 # Set environment variables for build
 ENV NEXT_PUBLIC_API_URL=$NEXT_PUBLIC_API_URL
